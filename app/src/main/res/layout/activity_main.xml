@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textviewtenbai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Tên Bài Hát"
+        android:textColor="#F8F5F5"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/id_dvd"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/dvd" />
+
+    <TextView
+        android:id="@+id/id_timestart"
+        android:text="00:00"
+        android:textColor="#0C0B0B"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/id_timesend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="8dp"
+        android:text="00:00"
+        android:textColor="#0C0B0B" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_marginTop="450dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="8"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="500dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/id_buttonpre"
+            android:layout_weight="2"
+            android:src="@drawable/ic_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/id_buttonplay"
+            android:layout_weight="2"
+            android:src="@drawable/ic_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/id_buttonstop"
+            android:layout_weight="2"
+            android:src="@drawable/ic_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageButton
+            android:id="@+id/id_buttonnext"
+            android:layout_weight="2"
+            android:src="@drawable/ic_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="600dp"
+        android:gravity="center"
+        android:text="Design by Dong"
+        android:textColor="#CDDC39"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
